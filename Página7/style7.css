@@ -1,0 +1,382 @@
+body {
+    background-color:bisque;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    overflow-x: hidden;
+}
+.home img {
+    float: left;
+    width: 12%;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#logoLeitura {
+  width: 15%;
+  margin-top: 90px;
+}
+#iconlivro {
+    float: right;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+.input-pesq {
+    text-align: center;
+    padding-right: 400px;   
+    padding-left: 300px;
+    margin-left: 45px;
+    margin-right: 500px;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+    transition: all 0.3s ease;
+}
+.input-pesq:hover,
+.input-pesq:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  background-color: #fff;
+}
+
+ul input[class="input-pesq"]{
+    width: 500px;
+    padding: 10px;
+    border: none;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7LX1ijkbflXJVGsMvqY4Pk5Y3AY-dyM6G5hjBNHw&s');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+  }
+
+.menu ul {  
+    padding-top: 90px;
+    max-width: 670px;
+    list-style: none;
+    padding-left: 500px;
+
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 70px;
+    padding-right: 40px;
+    text-decoration: none;
+    color: rgb(38, 154, 187);
+    font-size: 16px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.2s ease-in-out;
+    text-align: center;
+
+  }
+  
+  .menu ul li a:hover {
+    color: orange;
+    border-bottom: 3px solid orange;
+  }
+  
+  #Results {
+    background-color: #f0f0f0;
+    width: 100%;
+  }
+  #Results img {
+    width: 3%;
+    padding-left: 1100px;
+  }
+  #Results h3 {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 17px;
+  }
+
+   
+
+  .WidthBooks {
+    display: inline-block;
+    justify-content: space-between; 
+  }
+  
+  .Mangas li {
+    padding: 25px;
+    text-align: center;
+    width: 10%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 100px;
+    padding-left: 15px;
+    margin-left: 90px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+    background-color: #fff; 
+  }
+  .Mangas li img {
+    width: 110%;
+  }
+
+  .Mangas a {
+    text-decoration: none;
+  }
+  s {
+    color: #ff0000
+  }
+  .Mangas li:hover {
+    opacity: 0.9;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+
+  .Mangas li:last-child {
+    margin-right: 0;  
+  }
+  .Mangas p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+
+
+  .NewsBar {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    width: 100%;
+    background-color: #f8d56a;
+  }
+
+  .NewsBar h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: blue;
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  .NewsBar input[class="input-padrao"]{
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border: none;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #666;
+    margin-right: 20px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+  }
+  
+  .NewsBar input[class="input-email"]{
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border: none;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #333;
+    background-image: url('https://e7.pngegg.com/pngimages/997/1006/png-clipart-blue-and-white-arrow-button-blue-area-text-brand-sign-right-blue-text.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    margin-left: 120px;
+    margin-right: 80px;
+  }
+
+  .EndPage {
+    background-color:#f2f2f2;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin: auto;
+}
+
+  
+  .Insti, .Doubts, .Cont {
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin-right: 50px;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  .Insti ul {
+    padding-right: 100px;
+    list-style-type: none;
+  }
+  .Insti a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .Insti li {
+    margin-top: 20px;
+  }
+  .Doubts ul {
+    list-style-type: none;
+  }
+  .Doubts a {
+    text-decoration: none;
+    color: #000;
+  }
+  .Doubts li {
+    margin-top: 20px;
+  }
+  .Cont ul {
+    list-style-type: none;
+  }
+  .Cont a {
+    text-decoration: none;
+    color: #000;
+  }
+  .Cont li {
+    margin-top: 20px;
+  }
+  
+  .EndPage h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: rgb(255, 208, 0);
+    margin-top: 100px;
+    text-align: center;
+  }
+  #Pagamentos {
+    width: 30%;
+    padding-left: 70px;
+    float: left;
+  }
+  #Redes img {
+    width: 3%;
+    padding-right: 100px;
+    margin-left: 10px;
+    float: right;
+  }
+  #Redes a {
+    padding-right: 100px;
+  }
+  .container {
+    display: inline;
+  }
+  .tabela {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-left: 600px;
+    padding-bottom: 50px;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  .tabela th {
+    color: blue;
+  }
+  
+  #infos {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  th {
+    text-transform: uppercase;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  .tabela2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-left: 600px;
+    padding-bottom: 50px;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    margin-bottom: 100px;
+  }
+  .tabela2 th {
+    color: blue;
+  }
+  
+  #infos {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: blue;
+    margin-top: 100px;
+    text-align: center;
+  }
+  #Results h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: blue;
+    padding-top: 50px;
+    padding-right: 30px;
+
+  }
+  #Results img {
+    float: right;
+    padding-right: 50px;
+  }
+
+  .Comprar {
+    display: inline-block;
+    background-color: #ff9800;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/126/126510.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 25px 25px;
+    padding-left: 65px;
+    background-position-x: 20px;
+  }
+  
+  .Comprar:hover {
+    background-color: #f44336;
+  }
+  
